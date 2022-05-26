@@ -10,7 +10,7 @@ public:
 
 public:
     explicit MLP(const std::vector<int>& topology);
-    Vector forward(const Vector& input);
+    Vector forward(Vector input);
 
 private:
     std::vector<Matrix> weights;
